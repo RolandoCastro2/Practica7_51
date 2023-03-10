@@ -1,0 +1,77 @@
+/* ---------------------------------------------------------------Selector universal-------------------------------- */
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+/* *{
+    color: blue;
+} */
+
+/* ------------------------------------------------------------Selector de tipo-------------------------------------- */
+
+/* main{
+    border: 2px dotted darkred;
+} */
+
+/* -------------------------------------------------------------Selector por ID---------------------------------------- */
+
+/* #Info {
+    border-bottom: 5px groove darkred;
+} */
+
+/* --------------------------------------------------------Selectores de clase------------------------------------- */
+
+/* .titulo{
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px darkred;
+} */
+
+/* Selector de clase de un tab en particular */
+
+/* h3.titulo{
+    font-size: 100px;
+} */
+
+/* Selector por atributo */
+
+/* p[lang="en"] {
+    background-color: darkred
+} */
+
+/* ------------------------------------Selector de atributo buscando un texto al final-----------------------------------*/
+
+/* a[href$="mx"] {
+    background-color: darkred;
+}
+
+a[href^="ftp"] {
+    background-color: darkblue;
+}
+
+a[href*="pagina"] {
+    font-size: 45px;
+}
+
+[class~="round"]{
+    border: 3px solid blue;
+    border-radius: 10px;
+} */
+
+/* -----------------------------------------Selector de a, titulo y un lang especificado-------------------------------------*/
+
+/* a, .titulo, [lang] {
+    color: darkblue;
+} */
+
+/* -------------------------------------------------------Selector de descendientes-------------------------------------------- */
+
+/* main p {
+    border: 3px solid darkred;
+} */
+
+/* -------------------------------------------------------Selector hijo directo----------------------------------------------- */
+main > p {
+    border: 8px solid darkred;
+}
